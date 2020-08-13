@@ -31,4 +31,13 @@ public class MoodAnalyzerProblemTest {
         mood = checkMood.analyzeMood();
         Assert.assertThat(mood, CoreMatchers.is("HAPPY"));
     }
+    /**
+     * Function to test for Exception Handling
+     */
+    @Test
+    public void givenMood_whenNull_shouldReturnHappy() {
+        checkMood = new MoodAnalyzerProblem(null);
+        mood = checkMood.analyzeMood();
+        Assert.assertThat(mood, CoreMatchers.is("Happy"));
+    }
 }
