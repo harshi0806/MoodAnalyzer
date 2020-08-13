@@ -10,8 +10,6 @@ public class MoodAnalyzerProblemTest {
 
     /**
      * Function checking when mood is Sad
-     * Refactor: Passing parameter while creating MoodAnalyzer Object
-     * Removed parameter while calling analyzeMood Method
      */
     @Test
     public void givenMood_whenSad_shouldReturnSad() {
@@ -22,8 +20,6 @@ public class MoodAnalyzerProblemTest {
 
     /**
      * Function checking when mood is Happy
-     * Refactor: Passing parameter while creating MoodAnalyzer Object
-     * Removed parameter while calling analyzeMood Method
      */
     @Test
     public void givenMood_whenHappy_shouldReturnHappy() {
@@ -32,12 +28,31 @@ public class MoodAnalyzerProblemTest {
         Assert.assertThat(mood, CoreMatchers.is("HAPPY"));
     }
     /**
-     * Function to test for Exception Handling
+     * Test for Custom Exception Handling: Null
      */
     @Test
-    public void givenMood_whenNull_shouldReturnHappy() {
+    public void givenMood_whenNull_returnHappy() {
         checkMood = new MoodAnalyzerProblem(null);
-        mood = checkMood.analyzeMood();
-        Assert.assertThat(mood, CoreMatchers.is("Happy"));
+        try {
+            mood = checkMood.analyzeMood();
+        } catch (MoodAnalyzerException e) {
+            Assert.assertEquals("Happy", e.getMessage());
+            Assert.assertEquals(MoodAnalyzerException.ExceptionType.NULL, e.type);
+        }
+    }
+
+    /**
+     * Test for Custom Exception Handling: Empty Message
+     */
+    @Test
+    public void givenMood_whenEmpty_returnEmptyMood() {
+        checkMood = new MoodAnalyzerProblem("");
+        try {
+            mood = checkMood.analyzeMood();
+        } catch (MoodAnalyzerException e) {
+            Assert.assertEquals("Empty Mood", e.getMessage());
+            Assert.assertEquals(MoodAnalyzerException.ExceptionType.EMPTY, e.type);
+        }
     }
 }
+
