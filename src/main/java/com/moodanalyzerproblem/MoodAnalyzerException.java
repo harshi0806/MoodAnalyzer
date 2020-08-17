@@ -1,12 +1,10 @@
 package com.moodanalyzerproblem;
 
 public class MoodAnalyzerException extends RuntimeException {
-
-    // Initializing Exception Type
     ExceptionType type;
 
-    /**
-     * Enum for the Exception Types
+    /** Enum used for fixed set of possible values
+     *  Fixed values : NULL, EMPTY
      */
     enum ExceptionType {
         NULL, EMPTY
@@ -14,8 +12,8 @@ public class MoodAnalyzerException extends RuntimeException {
 
     /**
      * Constructor for Custom Exception
-     * @param type
-     * @param exceptionMessage
+     * @param type NULL, EMPTY
+     * @param exceptionMessage Happy, Empty Mood
      */
     public MoodAnalyzerException(ExceptionType type,String exceptionMessage) {
         super(exceptionMessage);

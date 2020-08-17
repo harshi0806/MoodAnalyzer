@@ -1,11 +1,7 @@
 package com.moodanalyzerproblem;
 
 public class MoodAnalyzerProblem {
-    private String message;
-
-    // Default Constructor
-    public MoodAnalyzerProblem() {
-    }
+    private final String message;
 
     // Parameterized Constructor
     public MoodAnalyzerProblem(String message) {
@@ -15,7 +11,8 @@ public class MoodAnalyzerProblem {
     /**
      * Method To Analyze Mood
      * @return Mood
-     * if null returns Empty Mood
+     * if NULL returns Happy Mood
+     * if EMPTY returns Empty Mood
      */
     public String analyzeMood() {
         try {
@@ -27,7 +24,6 @@ public class MoodAnalyzerProblem {
             return message.contains("Sad") ? "SAD" : "HAPPY";
 
         } catch (NullPointerException e) {
-            // If message is Null should return mood Happy
             throw new MoodAnalyzerException(MoodAnalyzerException.ExceptionType.NULL, "Happy");
         }
     }
