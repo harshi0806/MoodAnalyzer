@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.moodanalyzerproblem.MoodAnalyzerProblemTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-17T19:21:45" hostname="LAPTOP-2I7PNUC9" time="0.004">
+  <properties/>
+  <testcase name="givenMood_whenNull_returnHappy" classname="com.moodanalyzerproblem.MoodAnalyzerProblemTest" time="0.002"/>
+  <testcase name="givenMood_whenEmpty_returnEmptyMood" classname="com.moodanalyzerproblem.MoodAnalyzerProblemTest" time="0.0"/>
+  <testcase name="givenMood_whenSad_shouldReturnSad" classname="com.moodanalyzerproblem.MoodAnalyzerProblemTest" time="0.0"/>
+  <testcase name="givenMood_whenHappy_shouldReturnHappy" classname="com.moodanalyzerproblem.MoodAnalyzerProblemTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

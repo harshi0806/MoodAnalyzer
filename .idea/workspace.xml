@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a23dc2-936d-4489-b8a5-28b23200202a" name="Default Changelist" comment="" />
+    <list default="true" id="32020758-4e10-4c9b-9461-dcf2de5851fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CreateAnnotations/src/main/java/com/dummyproject/MethodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateAnnotations/src/test/java/com/dummyproject/AnnotationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSVProblem/src/main/java/com/dummyproject/CSVUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSVProblem/src/main/java/com/dummyproject/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSVProblem/src/main/java/com/dummyproject/OpenCSVAndGsonTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSVProblem/src/main/java/com/dummyproject/OpenCSVReadAndParseToBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSVProblem/src/main/java/com/dummyproject/OpenCSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSVProblem/src/main/java/com/dummyproject/OpenCSVWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenCSVProblem/src/main/resources/outputCSV.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMaximum/src/main/java/com/testmaximum/com/testmaximum/TestMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserRegisterationProblem/src/main/java/com/userregisteration/UserRegisteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserRegisterationProblem/src/test/java/com/userregisteration/UserRegisterationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UserRegisterationProblem/src/test/java/com/userregisteration/ValidateEmailTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,48 +36,50 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1fwNiDrejZbSee52dNdkocAXeXH" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g2iqELuusSzNRd67eQDGNB4V0b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UserRegisterationTest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyzerTest">
-    <configuration name="MoodAnalyzerTest.testSadMood" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MoodAnalyzer.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.moodanalyzertest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.moodanalyzertest.MoodAnalyzerTest" />
-      <option name="METHOD_NAME" value="testSadMood" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoodAnalyzerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.moodanalyzerproblem" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tests in 'MoodAnalyzerProblem'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.moodanalyzertest.MoodAnalyzerTest&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
-          <list />
+          <list>
+            <option value=":test" />
+          </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
@@ -72,54 +88,73 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoodAnalyzerTest" />
-        <item itemvalue="Android JUnit.MoodAnalyzerTest.testSadMood" />
+        <item itemvalue="Gradle.Tests in 'MoodAnalyzerProblem'" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="61a23dc2-936d-4489-b8a5-28b23200202a" name="Default Changelist" comment="" />
-      <created>1597125322897</created>
+      <changelist id="32020758-4e10-4c9b-9461-dcf2de5851fa" name="Default Changelist" comment="" />
+      <created>1597319283503</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597125322897</updated>
+      <updated>1597319283503</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="326" y="0" key="#Project_Structure" timestamp="1597125597852">
+    <state x="153" y="0" key="#Project_Structure" timestamp="1597690529138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="326" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1597125597852" />
-    <state x="403" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597296001982">
+    <state x="153" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1597690529138" />
+    <state x="127" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597322237475">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="403" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597296001982" />
-    <state width="1286" height="160" key="GridCell.Tab.0.bottom" timestamp="1597315689810">
+    <state x="127" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597322237475" />
+    <state x="453" y="97" key="FileChooserDialogImpl" timestamp="1597339329326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597315689810" />
-    <state width="1286" height="160" key="GridCell.Tab.0.center" timestamp="1597315689810">
+    <state x="453" y="97" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597339329326" />
+    <state width="1286" height="161" key="GridCell.Tab.0.bottom" timestamp="1597692109514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597315689810" />
-    <state width="1286" height="160" key="GridCell.Tab.0.left" timestamp="1597315689809">
+    <state width="1286" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597692109514" />
+    <state width="1286" height="161" key="GridCell.Tab.0.center" timestamp="1597692109514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597315689809" />
-    <state width="1286" height="160" key="GridCell.Tab.0.right" timestamp="1597315689810">
+    <state width="1286" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597692109514" />
+    <state width="1286" height="161" key="GridCell.Tab.0.left" timestamp="1597692109514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597315689810" />
-    <state x="89" y="0" key="new project wizard" timestamp="1597307172868">
+    <state width="1286" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597692109514" />
+    <state width="1286" height="161" key="GridCell.Tab.0.right" timestamp="1597692109514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="89" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1597307172868" />
-    <state x="387" y="176" key="refactoring.ChangeSignatureDialog" timestamp="1597126900473">
+    <state width="1286" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597692109514" />
+    <state width="1286" height="202" key="GridCell.Tab.1.bottom" timestamp="1597322813703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="387" y="176" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1597126900473" />
+    <state width="1286" height="202" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597322813703" />
+    <state width="1286" height="202" key="GridCell.Tab.1.center" timestamp="1597322813703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="202" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597322813703" />
+    <state width="1286" height="202" key="GridCell.Tab.1.left" timestamp="1597322813703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="202" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597322813703" />
+    <state width="1286" height="202" key="GridCell.Tab.1.right" timestamp="1597322813703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="202" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597322813703" />
+    <state x="489" y="150" key="chooseDestDirectoryDialog" timestamp="1597690867145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="489" y="150" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1597690867145" />
+    <state x="55" y="0" key="new project wizard" timestamp="1597351851212">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="55" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1597351851212" />
   </component>
 </project>
